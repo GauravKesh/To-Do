@@ -7,6 +7,14 @@ body{
     background-color: rgba(55, 52, 52, 0.718);
     font-family: 'Times New Roman', Times, serif;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
 
 .container{
     margin:10px;
@@ -99,10 +107,23 @@ button{
 }
 
 
+@media screen and (max-width:516px){
+    h1{
+        text-align: center;
+        font-size:20px;
+        
+    }
+    p{
+        text-align: center;
+        font-size:15px;
+    }
+}
+
 @media screen and (max-width:872px){
     button{
         font-size:10px;
         width:40%;
         margin:5px;
     }
+ 
 }
