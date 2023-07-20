@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(55, 52, 52, 0.718);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin:10px;
+    background-color: rgb(24, 30, 36);
+    height:151vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border:2px solid rgba(12, 72, 105, 0.597);
+
+}
+
+.todo{
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(77, 79, 71, 0.119);
+    height:100vh;
+    width:90%;
+
+    
+    
+}
+
+.add-task form input{
+    margin: 5px;
+    padding: 5px;
+    /* color: rgb(201, 40, 40); */
+    width:100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-color: rgb(94, 94, 96);
+    border-bottom-color: rgb(105, 47, 166);
+    border-width:2px;
+    border-style:dotted;
+
+}
+
+
+.display-task{
+    margin-top: 10px;
+    background-color: rgb(106, 102, 97);
+    border: 5px solid rgb(28, 28, 29);
+    height:85vh;
+}
+
+label{
+    color: bisque;
+    padding: 5px;
+}
+
+input[type="time"],input[type="date"] ,input[type="text"]{
+    margin-bottom: 5px;
+    padding:10px;
+    height:30px;
+    width:10%;
+    color:black;
+    font-size:25px;
+    text-align: center;
+}
+
+.bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 20px;
+    align-items: center;
+    width:20%;
+    margin: 5%;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(15, 26, 181);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-color: rgb(3, 3, 3);
+    border-bottom-color: rgb(217, 165, 24);
+    border-width:6px;
+    border-style:double;
+
+}
+
+
+@media screen and (max-width:872px){
+    button{
+        font-size:10px;
+        width:40%;
+        margin:5px;
+    }
+}
