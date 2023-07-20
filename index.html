@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>TO DO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conatiner-s">
+            <div class="todo">
+                <div class="add-task">
+                    <form action="entry.php">
+                        <label for="add-todo">New Task</label>
+                        <input type="text" name="todo" id="add-todo" placeholder="Enter your Task..............." required>
+                        <label for="date">Add date</label>
+                        <input type="date" class="date" name="" id="date" required>
+                        <label for="time">Add Time</label>
+                        <input type="time" class="time" name="" id="time" required>
+                        <div class="bttn">
+                        <button type="submit" class="Submit" value="">SUBMIT-TASK</button>
+                        <button type="reset" class="clear" value="">RESET</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="display-task">
+                    <div class="task1"></div>
+                    <div class="task2"></div>
+                    <div class="task3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
